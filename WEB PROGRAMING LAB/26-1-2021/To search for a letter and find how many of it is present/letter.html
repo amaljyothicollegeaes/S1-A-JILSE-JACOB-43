@@ -1,0 +1,35 @@
+<html>
+<head><title>letter lengths and count</title></head>
+<body>
+<p id="demo">Code for finding letter and number of letter 'e' in a string</p> 
+<script language="javascript" type="text/javascript">
+var str
+str="jilse is so good person for real"
+var n
+var letter
+var j
+var count=0
+n=str.length
+
+document.write("<br>Entered string is : "+str+"<br>")
+for(j=0;j<n;j++)
+{
+if(str.charAt(j)=="e")
+ {
+ count=count+1;
+ }
+}
+if(count==0)
+{
+document.write("<br>There is no e in the given string")
+}
+else
+{
+document.write("<br>The letter 'e' is present in the given sting<br>")
+document.write("<br>Number of 'e' is "+count)
+}
+
+
+</script>
+</body>
+</html>

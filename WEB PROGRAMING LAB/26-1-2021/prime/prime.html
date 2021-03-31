@@ -1,0 +1,38 @@
+<html>
+<head><title>prime</title>
+</head>
+<body>
+<script language="javascript" type="text/javascript">
+var i
+var d
+var j
+var k
+document.write("prime numbers between 1 to 100<br>")
+document.write(1)
+document.write("<br>")
+document.write(2)
+document.write("<br>")
+document.write(3)
+document.write("<br>")
+a=4
+for(i=4;i<100;i++)
+{k=0
+for(j=2;j<i;j++)
+{
+d=a%j
+if(d==0)
+{
+k=1
+}
+}
+if(k==0)
+{
+document.write(a)
+document.write("<br>")
+}
+a=a+1
+}
+
+</script>
+</body>
+</html>
